@@ -1,0 +1,26 @@
+{
+    "name": "zencounter",
+    "version": "0.0.1",
+    "description": "A distributed in-memory counter server.",
+    "author": "Mashape <support@mashape.com>",
+    "homepage":"http://www.mashape.com",
+    "dependencies": {
+        "optimist": "0.3.4",
+        "validator": "0.4.10",
+		"restler" : "2.0.1"
+    },
+    "private": true,
+    "engines": {
+        "node": ">= 0.8.11"
+    },
+    "bin" : { "zencounter" : "bin/main.js" },
+    "license" : "GNU AFFERO GENERAL PUBLIC LICENSE",
+    "repository" : { 
+        "type" : "git", 
+	"url" : "https://github.com/Mashape/Mashape4-proxy"
+    },
+    "bugs" : {
+	"url" : "https://github.com/Mashape/Mashape4-proxy/issues",
+	"email" : "support@mashape.com"
+    }
+}
