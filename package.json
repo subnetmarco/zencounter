@@ -17,10 +17,10 @@
     "license" : "GNU AFFERO GENERAL PUBLIC LICENSE",
     "repository" : { 
         "type" : "git", 
-	"url" : "https://github.com/Mashape/Mashape4-proxy"
+	"url" : "https://github.com/thefosk/zencounter"
     },
     "bugs" : {
-	"url" : "https://github.com/Mashape/Mashape4-proxy/issues",
+	"url" : "https://github.com/thefosk/zencounter/issues",
 	"email" : "support@mashape.com"
     }
 }
