@@ -1,6 +1,6 @@
 var cluster = require('cluster');
 var numCPUs = require('os').cpus().length;
-var workerServer = require('./../lib/worker-server');
+var tcpServer = require('./../lib/tcp-server');
 var utils = require('./../lib/utils');
 var httpClient = require('./../lib/http-client');
 var config = require('./../lib/config');
@@ -26,7 +26,7 @@ config.on("completed", function() {
 	
 		console.info("Running " + config.workers + " workers. Ready to process requests...");
 	} else {
-		workerServer.startServer();
+		tcpServer.startServer();
 	}
 });
 
