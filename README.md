@@ -4,4 +4,4 @@ Zencounter is a low latency, in-memory, distributed counter server. You can incr
 
 # Note
 
-It's still in development.
+It's still in development. **Don't use it**.
